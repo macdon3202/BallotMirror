@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.test-tmp/
+artifacts/
+docs/evidence/*.json
+docs/studionet-scenarios.json

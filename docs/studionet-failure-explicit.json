@@ -1,0 +1,9 @@
+{
+  "chain_key": "OPTIMISM",
+  "executor": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+  "proposal_ref": "optimism-usdt-explicit-conflict-82528e72",
+  "disclosure": "Call approve for exactly 1 token unit with zero native value. No token transfer occurs and no recipient receives tokens.",
+  "tx_hash": "0x82528e7256f31fc559e78c6e0955f9aff807c2b24119a1a472f000ec462e7363",
+  "expected_state": "DIVERGENT",
+  "source_url": "https://optimism.blockscout.com/api/v2/transactions/0x82528e7256f31fc559e78c6e0955f9aff807c2b24119a1a472f000ec462e7363"
+}

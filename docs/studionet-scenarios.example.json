@@ -1,0 +1,11 @@
+[
+  {
+    "chain_key": "OPTIMISM",
+    "executor": "0x0000000000000000000000000000000000000001",
+    "proposal_ref": "replace-with-real-reference",
+    "disclosure": "Replace with a precise disclosure of action, target, value and any authority effect.",
+    "tx_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "expected_state": "ALIGNED",
+    "source_url": "https://optimism.blockscout.com/api/v2/transactions/0x0000000000000000000000000000000000000000000000000000000000000000"
+  }
+]

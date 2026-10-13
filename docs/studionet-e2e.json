@@ -1,0 +1,36 @@
+{
+  "network": "studionet",
+  "run_date": "2026-10-13",
+  "contract": "0x86546300BF0Be7B423E7Eb2e9912E38f829E5E72",
+  "contract_url": "https://explorer-studio.genlayer.com/address/0x86546300BF0Be7B423E7Eb2e9912E38f829E5E72",
+  "wallet_a_opener": "0xFeD97e2aE1A8C1983b7cA206B3545e6A2c685E43",
+  "wallet_b_assessor": "0xc67532aeF9D2879cBA9375a02E6217A3524657B8",
+  "main_wallet_used_in_lifecycle": false,
+  "happy_path": {
+    "observation_id": 1,
+    "open_tx": "0x7ed44447ec33f43406c9c0bc37030e4e15ddf2b485f8ce211214d648caaada8b",
+    "assess_tx": "0xb29e94a5d96eea36e3ee82fb57008b77d3b777bfd78c1149952568ab4a703936",
+    "state": "ALIGNED",
+    "source_status": "SOURCE_VERIFIED",
+    "snapshot_digest": "0385f0366566e304da6aa72169c2336e908b66a429e3b80f4e836704085efded"
+  },
+  "consensus_conflict": {
+    "observation_ids": [2, 3],
+    "assessment_txs": [
+      "0x30b8de72e4465e5780a231993e5cecab7b6410749538b1bca1df75bfccdc3755",
+      "0x62899a85c633b418069b7d4fc646ed1c641db72b027f462047cddae6b3f421e4",
+      "0x5fceebcf1c77ec3a001332efd6163127d2d71266f40629e646499caeb6ab8328"
+    ],
+    "consensus_result": "MAJORITY_DISAGREE",
+    "post_state": "SEALED",
+    "assessment_round": 0
+  },
+  "object_binding_failure": {
+    "observation_id": 4,
+    "open_tx": "0x4a816552658982a52b238fa5aee167c88e5bf91ea02d0957b535d8bf50340a5e",
+    "assess_tx": "0x43918169ff6f5228aa858b5bf0475f567c43775f95a6dad68d632b562488f93b",
+    "state": "REVIEW_REQUIRED",
+    "source_status": "SOURCE_INVALID",
+    "reason": "SOURCE_OR_OBJECT_BINDING_INVALID"
+  }
+}
